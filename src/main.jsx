@@ -6,9 +6,8 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Risemanagement2">
       <App />
     </BrowserRouter>
   </React.StrictMode>
 );
-
